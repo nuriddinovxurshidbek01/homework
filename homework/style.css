@@ -1,0 +1,50 @@
+    .card {
+        width: 400px;
+        height: 400px;
+        margin: 200px auto;
+        background-image: url(./imges/photo_2023-01-09_21-20-50.jpg);
+        background-size: 400px 400px;
+        border: 4px solid rgb(58, 54, 54);
+        display: flex;
+    }
+    
+    body {
+        background-image: url(https://picsum.photos/id/179/1600/1000);
+        background-repeat: no-repeat;
+    }
+    
+    .card:hover .card_l {
+        width: 200px;
+        height: 400px;
+        border: 2px solid rgb(39, 39, 39);
+        background-color: rgb(241, 224, 207);
+        opacity: 70%;
+        transform: rotateY(150deg);
+        transform-origin: left center;
+    }
+    
+    .card:hover .card_r {
+        width: 200px;
+        height: 400px;
+        border: 2px solid rgb(39, 39, 39);
+        background-color: rgb(241, 224, 207);
+        opacity: 70%;
+        transform: rotateY(-150deg);
+        transform-origin: right center;
+    }
+    
+    .card_l {
+        width: 200px;
+        height: 400px;
+        border: 3px solid rgb(39, 39, 39);
+        background-color: rgb(104, 103, 102);
+        opacity: 70%;
+    }
+    
+    .card_r {
+        width: 200px;
+        height: 400px;
+        border: 3px solid rgb(39, 39, 39);
+        background-color: rgb(104, 103, 102);
+        opacity: 70%;
+    }
